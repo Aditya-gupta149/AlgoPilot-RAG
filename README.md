@@ -4,9 +4,9 @@ AlgoPilot-RAG 🚀
 
 🌐 Live Demo
 
-Frontend: https://algo-pilot-3mamf2nni-aditya-gupta149s-projects.vercel.app/
+- Frontend: https://algo-pilot-3mamf2nni-aditya-gupta149s-projects.vercel.app/
 
-Backend: https://algopilot-rag.onrender.com/
+- Backend: https://algopilot-rag.onrender.com/
 
 📖 Overview
 
@@ -18,97 +18,97 @@ AlgoPilot-RAG is an intelligent DSA learning assistant that combines:
 
 - Google Gemini API
 
-Custom DSA Knowledge Base
+- Custom DSA Knowledge Base
 
-React Frontend
+- React Frontend
 
-Express Backend
+- Express Backend
 
 Instead of relying solely on a language model's knowledge, the system first retrieves relevant information from a curated DSA dataset and then generates answers using Gemini.
 
 ✨ Features
 
-AI Tutor
+- AI Tutor
 
-Ask DSA-related questions
+- Ask DSA-related questions
 
-Context-aware responses
+- Context-aware responses
 
-Retrieves relevant content before generating answers
+- Retrieves relevant content before generating answers
 
-Semantic Search
+- Semantic Search
 
-Uses Gemini Embeddings
+- Uses Gemini Embeddings
 
-Finds meaning-based matches rather than keyword matches
+- Finds meaning-based matches rather than keyword matches
 
-RAG Pipeline
+- RAG Pipeline
 
-Document Chunking
+- Document Chunking
 
-Embedding Generation
+- Embedding Generation
 
-Similarity Search
+- Similarity Search
 
-Context Retrieval
+- Context Retrieval
 
-AI Response Generation
+- AI Response Generation
 
-Modern UI
+- Modern UI
 
-Dark-themed interface
+- Dark-themed interface
 
-Responsive design
+- Responsive design
 
-Fast and lightweight
+- Fast and lightweight
 
-Deployment
+## Deployment
 
-Frontend deployed on Vercel
+- Frontend deployed on Vercel
 
-Backend deployed on Render
+- Backend deployed on Render
 
 🏗️ System Architecture
 
-User Query
-    │
-    ▼
-Generate Query Embedding
-    │
-    ▼
-Similarity Search
-    │
-    ▼
-Retrieve Relevant Chunks
-    │
-    ▼
-Build Context
-    │
-    ▼
-Gemini Prompt
-    │
-    ▼
-AI Generated Answer
+- User Query
+ -   │
+ -   ▼
+- Generate Query Embedding
+ -   │
+ -   ▼
+- Similarity Search
+ -   │
+  -  ▼
+- Retrieve Relevant Chunks
+ -   │
+ -   ▼
+- Build Context
+-    │
+ -   ▼
+- Gemini Prompt
+  -   │
+  -  ▼
+- AI Generated Answer
 
 🛠️ Tech Stack
-Frontend
-React.js
-Vite
-Axios
-CSS
-Backend
-Node.js
-Express.js
-AI & RAG
-Google Gemini API
-Gemini Embeddings
-Retrieval-Augmented Generation
-Deployment
-Vercel
-Render
-Version Control
-Git
-GitHub
+- Frontend
+- React.js
+- Vite
+- Axios
+- CSS
+- Backend
+- Node.js
+- Express.js
+- AI & RAG
+- Google Gemini API
+- Gemini Embeddings
+- Retrieval-Augmented Generation
+- Deployment
+- Vercel
+- Render
+- Version Control
+- Git
+- GitHub
 
 📂 Project Structure
 
@@ -134,65 +134,65 @@ AlgoPilot-RAG/
 
 ⚙️ Installation
 
-Clone Repository
-git clone https://github.com/Aditya-gupta149/AlgoPilot-RAG.git
-cd AlgoPilot-RAG
+# Clone Repository
+- git clone https://github.com/Aditya-gupta149/AlgoPilot-RAG.git
+- cd AlgoPilot-RAG
 
-Backend Setup
-cd server
-npm install
+# Backend Setup
+- cd server
+- npm install
 
-Create .env
+- Create .env
 
-GOOGLE_API_KEY=your_api_key
-PORT=5000
+- GOOGLE_API_KEY=your_api_key
+- PORT=5000
 
-Start Backend
+# Start Backend
 
-npm start
-Frontend Setup
-cd client
-npm install
+- npm start
+- Frontend Setup
+- cd client
+- npm install
 
-Create .env
+- Create .env
 
-VITE_API_URL=http://localhost:5000
+- VITE_API_URL=http://localhost:5000
 
-Start Frontend
+- Start Frontend
 
-npm run dev
+- npm run dev
 
 🔄 RAG Workflow
 
-Step 1
+- Step 1
 
-Prepare DSA knowledge base.
+ Prepare DSA knowledge base.
 
-Step 2
+- Step 2
 
-Split content into chunks.
+ Split content into chunks.
 
-Step 3
+- Step 3
 
-Generate embeddings using Gemini.
+ Generate embeddings using Gemini.
 
-Step 4
+- Step 4
 
 Store embeddings locally.
 
-Step 5
+- Step 5
 
 Convert user query into embedding.
 
-Step 6
+- Step 6
 
 Find most relevant chunks.
 
-Step 7
+- Step 7
 
 Pass retrieved context to Gemini.
 
-Step 8
+- Step 8
 
 Generate final answer.
 
@@ -229,30 +229,30 @@ Generate final answer.
 
 
 🚀 Future Improvements
-Pinecone Integration
-ChromaDB Integration
-PDF Upload Support
-Code Syntax Highlighting
-Interview Preparation Module
-Personalized Learning Paths
-Mock Coding Interviews
-Progress Tracking Dashboard
-Multi-Document Retrieval
-Advanced Ranking Algorithms
+- Pinecone Integration
+- ChromaDB Integration
+- PDF Upload Support
+- Code Syntax Highlighting
+- Interview Preparation Module
+- Personalized Learning Paths
+- Mock Coding Interviews
+- Progress Tracking Dashboard
+- Multi-Document Retrieval
+- Advanced Ranking Algorithms
 
 
 📈 Learning Outcomes
 
 Through this project I learned:
 
-Retrieval-Augmented Generation (RAG)
-Embedding Models
-Semantic Search
-Prompt Engineering
-Full Stack Development
-API Integration
-Deployment using Vercel and Render
-AI Application Development
+- Retrieval-Augmented Generation (RAG)
+- Embedding Models
+- Semantic Search
+- Prompt Engineering
+- Full Stack Development
+- API Integration
+- Deployment using Vercel and Render
+- AI Application Development
 
 
 ## Author
