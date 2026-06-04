@@ -112,25 +112,25 @@ Instead of relying solely on a language model's knowledge, the system first retr
 
 📂 Project Structure
 
-- AlgoPilot-RAG/
--│
--├── client/
--│   ├── src/
--│   │   ├── pages/
--│   │   ├── components/
--│   │   └── services/
--│   └── package.json
--│
--├── server/
--│   ├── controllers/
--│   ├── routes/
--│   ├── services/
--│   ├── embeddings.json
--│   ├── chunks.json
--│   └── app.js
--│
--├── README.md
--└── .gitignore
+-  AlgoPilot-RAG/
+- │
+- ├── client/
+- │   ├── src/
+- │   │   ├── pages/
+- │   │   ├── components/
+- │   │   └── services/
+- │   └── package.json
+- │
+- ├── server/
+- │   ├── controllers/
+- │   ├── routes/
+- │   ├── services/
+- │   ├── embeddings.json
+- │   ├── chunks.json
+- │   └── app.js
+- │
+- ├── README.md
+- └── .gitignore
 
 ⚙️ Installation
 
