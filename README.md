@@ -1,89 +1,91 @@
-# AlgoPilot 🚀
+AlgoPilot-RAG 🚀
 
-An AI-powered platform that helps students learn Data Structures & Algorithms, improve coding skills, and prepare for technical interviews.
+An AI-powered DSA Tutor built using Retrieval-Augmented Generation (RAG), Gemini AI, and semantic search over DSA study materials.
 
-## Features
+Features
 
-- 🤖 AI DSA Tutor
-  - Get easy-to-understand explanations of DSA concepts.
+- 📚 PDF-based knowledge retrieval
+- 🔍 Semantic search using Gemini Embeddings
+- 🤖 Gemini-powered answer generation
+- 📄 Multiple PDF support
+- ⚡ Context-aware responses
+- 🎯 DSA-focused tutoring experience
 
-- 💻 AI Code Review
-  - Receive feedback and optimization suggestions for your code.
+Tech Stack
 
-- 🎯 Mock Interview
-  - Practice technical interview questions with AI assistance.
+Frontend
 
-- 🛣️ Learning Roadmap
-  - Follow a structured path for DSA and placement preparation.
-
-## Tech Stack
-
-### Frontend
 - React.js
-- Vite
-- Tailwind CSS
+- Axios
+- CSS
 
-### Backend
+Backend
+
 - Node.js
 - Express.js
-
-### AI
 - Google Gemini API
+- PDF-Parse
 
-## Project Structure
+AI / RAG
 
-```text
-AlgoPilot
-├── client
-├── server
-├── screenshots
-│   ├── home.png
-│   ├── tutor.png
-│   ├── review.png
-│   └── interview.png
-|   |_roadmap.png
-└── README.md
+- Gemini Embeddings
+- Vector Similarity Search
+- Retrieval-Augmented Generation (RAG)
 
-## Getting Started
+Project Workflow
 
-### Clone the Repository
+PDF Documents
+→ Text Extraction
+→ Chunking
+→ Gemini Embeddings
+→ Semantic Search
+→ Relevant Context Retrieval
+→ Gemini Response Generation
 
-```bash
-git clone https://github.com/Aditya-gupta149/AlgoPilot.git
-cd AlgoPilot
-```
+Folder Structure
 
-### Frontend Setup
+server/
+├── docs/
+├── data/
+│ ├── chunks.json
+│ └── embeddings.json
+├── services/
+├── controllers/
+├── routes/
 
-```bash
+client/
+├── src/
+├── components/
+├── pages/
+
+Installation
+
+Clone Repository
+
+git clone <repository-url>
+
+Backend
+
+cd server
+npm install
+npm start
+
+Frontend
+
 cd client
 npm install
 npm run dev
-```
 
-### Backend Setup
+Future Improvements
 
-```bash
-cd server
-npm install
-npm run dev
-```
-
-### Environment Variables
-
-Create a `.env` file inside the `server` folder:
-
-```env
-GEMINI_API_KEY=your_api_key
-```
-
-## Future Enhancements
-
+- FAISS / Pinecone Vector Database
 - User Authentication
 - Chat History
-- Progress Tracking
-- Personalized Learning Plans
-- Resume Analyzer
+- LeetCode Solution Generator
+- Complexity Analysis
+- Topic-wise DSA Learning Paths
+
+
 
 ## Author
 
