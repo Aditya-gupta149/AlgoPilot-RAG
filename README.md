@@ -23,9 +23,13 @@ Instead of relying solely on a language model's knowledge, the system first retr
 
 ✨ Features
 AI Tutor
+
 Ask DSA-related questions
+
 Context-aware responses
+
 Retrieves relevant content before generating answers
+
 Semantic Search
 Uses Gemini Embeddings
 Finds meaning-based matches rather than keyword matches
