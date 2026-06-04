@@ -105,7 +105,8 @@ GitHub: https://github.com/Aditya-gupta149
 
 ### AI DSA Tutor
 
-<img width="1900" height="840" alt="Screenshot 2026-05-30 083311" src="https://github.com/user-attachments/assets/fd61dacf-a01e-46c0-a08c-fd6e7ebcfb0a" />
+<img width="1758" height="756" alt="Screenshot 2026-06-03 212352" src="https://github.com/user-attachments/assets/bd5754f8-1792-41dd-8078-599de6b768b7" />
+
 
 
 ### Code Review
