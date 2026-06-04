@@ -13,15 +13,21 @@ Backend: https://algopilot-rag.onrender.com/
 AlgoPilot-RAG is an intelligent DSA learning assistant that combines:
 
 Semantic Search using Embeddings
+
 Retrieval-Augmented Generation (RAG)
+
 Google Gemini API
+
 Custom DSA Knowledge Base
+
 React Frontend
+
 Express Backend
 
 Instead of relying solely on a language model's knowledge, the system first retrieves relevant information from a curated DSA dataset and then generates answers using Gemini.
 
 ✨ Features
+
 AI Tutor
 
 Ask DSA-related questions
@@ -31,20 +37,35 @@ Context-aware responses
 Retrieves relevant content before generating answers
 
 Semantic Search
+
 Uses Gemini Embeddings
+
 Finds meaning-based matches rather than keyword matches
+
 RAG Pipeline
+
 Document Chunking
+
 Embedding Generation
+
 Similarity Search
+
 Context Retrieval
+
 AI Response Generation
+
 Modern UI
+
 Dark-themed interface
+
 Responsive design
+
 Fast and lightweight
+
 Deployment
+
 Frontend deployed on Vercel
+
 Backend deployed on Render
 
 🏗️ System Architecture
