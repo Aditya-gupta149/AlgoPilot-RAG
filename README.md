@@ -1,99 +1,177 @@
 AlgoPilot-RAG 🚀
 
-An AI-powered DSA Tutor built using Retrieval-Augmented Generation (RAG), Gemini AI, and semantic search over DSA study materials.
+An AI-powered DSA Tutor that uses Retrieval-Augmented Generation (RAG) and Google Gemini to provide context-aware answers from a custom DSA knowledge base.
 
-Features
+🌐 Live Demo
 
-- 📚 PDF-based knowledge retrieval
-- 🔍 Semantic search using Gemini Embeddings
-- 🤖 Gemini-powered answer generation
-- 📄 Multiple PDF support
-- ⚡ Context-aware responses
-- 🎯 DSA-focused tutoring experience
+Frontend: https://algo-pilot-3mamf2nni-aditya-gupta149s-projects.vercel.app/
 
-Tech Stack
+Backend: https://algopilot-rag.onrender.com/
 
+📖 Overview
+
+AlgoPilot-RAG is an intelligent DSA learning assistant that combines:
+
+Semantic Search using Embeddings
+Retrieval-Augmented Generation (RAG)
+Google Gemini API
+Custom DSA Knowledge Base
+React Frontend
+Express Backend
+
+Instead of relying solely on a language model's knowledge, the system first retrieves relevant information from a curated DSA dataset and then generates answers using Gemini.
+
+✨ Features
+AI Tutor
+Ask DSA-related questions
+Context-aware responses
+Retrieves relevant content before generating answers
+Semantic Search
+Uses Gemini Embeddings
+Finds meaning-based matches rather than keyword matches
+RAG Pipeline
+Document Chunking
+Embedding Generation
+Similarity Search
+Context Retrieval
+AI Response Generation
+Modern UI
+Dark-themed interface
+Responsive design
+Fast and lightweight
+Deployment
+Frontend deployed on Vercel
+Backend deployed on Render
+
+🏗️ System Architecture
+
+User Query
+    │
+    ▼
+Generate Query Embedding
+    │
+    ▼
+Similarity Search
+    │
+    ▼
+Retrieve Relevant Chunks
+    │
+    ▼
+Build Context
+    │
+    ▼
+Gemini Prompt
+    │
+    ▼
+AI Generated Answer
+
+🛠️ Tech Stack
 Frontend
-
-- React.js
-- Axios
-- CSS
-
+React.js
+Vite
+Axios
+CSS
 Backend
+Node.js
+Express.js
+AI & RAG
+Google Gemini API
+Gemini Embeddings
+Retrieval-Augmented Generation
+Deployment
+Vercel
+Render
+Version Control
+Git
+GitHub
 
-- Node.js
-- Express.js
-- Google Gemini API
-- PDF-Parse
+📂 Project Structure
 
-AI / RAG
+AlgoPilot-RAG/
+│
+├── client/
+│   ├── src/
+│   │   ├── pages/
+│   │   ├── components/
+│   │   └── services/
+│   └── package.json
+│
+├── server/
+│   ├── controllers/
+│   ├── routes/
+│   ├── services/
+│   ├── embeddings.json
+│   ├── chunks.json
+│   └── app.js
+│
+├── README.md
+└── .gitignore
 
-- Gemini Embeddings
-- Vector Similarity Search
-- Retrieval-Augmented Generation (RAG)
-
-Project Workflow
-
-PDF Documents
-→ Text Extraction
-→ Chunking
-→ Gemini Embeddings
-→ Semantic Search
-→ Relevant Context Retrieval
-→ Gemini Response Generation
-
-Folder Structure
-
-server/
-├── docs/
-├── data/
-│ ├── chunks.json
-│ └── embeddings.json
-├── services/
-├── controllers/
-├── routes/
-
-client/
-├── src/
-├── components/
-├── pages/
-
-Installation
+⚙️ Installation
 
 Clone Repository
+git clone https://github.com/Aditya-gupta149/AlgoPilot-RAG.git
+cd AlgoPilot-RAG
 
-git clone <repository-url>
-
-Backend
-
+Backend Setup
 cd server
 npm install
+
+Create .env
+
+GOOGLE_API_KEY=your_api_key
+PORT=5000
+
+Start Backend
+
 npm start
-
-Frontend
-
+Frontend Setup
 cd client
 npm install
+
+Create .env
+
+VITE_API_URL=http://localhost:5000
+
+Start Frontend
+
 npm run dev
 
-Future Improvements
+🔄 RAG Workflow
 
-- FAISS / Pinecone Vector Database
-- User Authentication
-- Chat History
-- LeetCode Solution Generator
-- Complexity Analysis
-- Topic-wise DSA Learning Paths
+Step 1
+
+Prepare DSA knowledge base.
+
+Step 2
+
+Split content into chunks.
+
+Step 3
+
+Generate embeddings using Gemini.
+
+Step 4
+
+Store embeddings locally.
+
+Step 5
+
+Convert user query into embedding.
+
+Step 6
+
+Find most relevant chunks.
+
+Step 7
+
+Pass retrieved context to Gemini.
+
+Step 8
+
+Generate final answer.
 
 
-
-## Author
-
-**Aditya Gupta**  
-Electronics & Communication Engineering  
-NIT Patna
-
-GitHub: https://github.com/Aditya-gupta149
 
 
 ## Screenshots
@@ -122,3 +200,50 @@ GitHub: https://github.com/Aditya-gupta149
 ### Roadmap
 
 <img width="1908" height="835" alt="Screenshot 2026-05-30 083833" src="https://github.com/user-attachments/assets/bea21f57-51af-4c61-b4bf-7b93484fc094" />
+
+
+
+🚀 Future Improvements
+Pinecone Integration
+ChromaDB Integration
+PDF Upload Support
+Code Syntax Highlighting
+Interview Preparation Module
+Personalized Learning Paths
+Mock Coding Interviews
+Progress Tracking Dashboard
+Multi-Document Retrieval
+Advanced Ranking Algorithms
+
+
+📈 Learning Outcomes
+
+Through this project I learned:
+
+Retrieval-Augmented Generation (RAG)
+Embedding Models
+Semantic Search
+Prompt Engineering
+Full Stack Development
+API Integration
+Deployment using Vercel and Render
+AI Application Development
+
+
+## Author
+
+**Aditya Gupta**  
+Electronics & Communication Engineering  
+NIT Patna
+
+GitHub: https://github.com/Aditya-gupta149
+
+⭐ Support
+
+If you found this project useful:
+
+⭐ Star the repository
+
+🍴 Fork the project
+
+💡 Contribute improvements
