@@ -1,6 +1,6 @@
 AlgoPilot-RAG 🚀
 
-An AI-powered DSA Tutor that uses Retrieval-Augmented Generation (RAG) and Google Gemini to provide context-aware answers from a custom DSA knowledge base.
+- An AI-powered DSA Tutor that uses Retrieval-Augmented Generation (RAG) and Google Gemini to provide context-aware answers from a custom DSA knowledge base.
 
 🌐 Live Demo
 
@@ -12,11 +12,11 @@ Backend: https://algopilot-rag.onrender.com/
 
 AlgoPilot-RAG is an intelligent DSA learning assistant that combines:
 
-Semantic Search using Embeddings
+- Semantic Search using Embeddings
 
-Retrieval-Augmented Generation (RAG)
+- Retrieval-Augmented Generation (RAG)
 
-Google Gemini API
+- Google Gemini API
 
 Custom DSA Knowledge Base
 
