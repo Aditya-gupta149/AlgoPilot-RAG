@@ -4,7 +4,7 @@ AlgoPilot-RAG 🚀
 
 🌐 Live Demo
 
-- Frontend: https://algo-pilot-3mamf2nni-aditya-gupta149s-projects.vercel.app/
+- Frontend: https://algo-pilot-egk8dzvgv-aditya-gupta149s-projects.vercel.app
 
 - Backend: https://algopilot-rag.onrender.com/
 
